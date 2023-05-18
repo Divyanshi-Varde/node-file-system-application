@@ -1,17 +1,3 @@
-// const fs = require("fs");
-// const a = fs.readFileSync("./sample.txt");
-// console.log(a.toString()); //returns a buffer
-
-// ***************** Callback API ********** //
-// const fs = require("fs");
-// fs.copyFile("sample.txt", "copied-callback.txt", (error) => {
-//   if (error) console.log(error);
-// });
-
-// ************** Synchronous API ********* //
-// const fs = require("fs");
-// fs.copyFileSync("sample.txt", "copied.sync.txt");
-
 // ********** Promise API ********** //
 const fs = require("fs/promises");
 
@@ -44,14 +30,6 @@ const deleteFile = async (path) => {
     }
   }
 };
-
-// const renameFile = (path) => {
-//   console.log(`Renaming ${oldpath}.....`);
-// };
-
-// const addToFile = (path) => {
-//   console.log(`Adding to ${path}.....`);
-// };
 
 const renameFile = async (oldPath, newPath) => {
   try {
