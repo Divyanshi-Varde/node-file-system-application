@@ -1,0 +1,7 @@
+create a file file.txt
+
+// rename the file file.txt to a.txt
+
+// add to the file a.txt this content: Hello! this is a sample file for testing! Come back again!
+
+// delete the file a.txt
